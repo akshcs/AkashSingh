@@ -18,7 +18,7 @@ public class SwaggerConfig {
     public Docket getSwaggerConfig(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.emergency"))
+                .apis(RequestHandlerSelectors.basePackage("com.akash.emergency"))
                 .build()
                 .apiInfo(metaInfo());
     }
