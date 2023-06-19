@@ -1,0 +1,6 @@
+what3words:
+  apiKey: apiKey
+  language: en
+  allowedCountries:
+    - ABC
+  numberOfSuggestionsPerCountry: 3

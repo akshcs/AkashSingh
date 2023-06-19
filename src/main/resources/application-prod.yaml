@@ -1,0 +1,6 @@
+what3words:
+  apiKey: I77L4L5G
+  language: en
+  allowedCountries:
+    - GB
+  numberOfSuggestionsPerCountry: 3

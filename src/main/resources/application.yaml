@@ -1,0 +1,23 @@
+server:
+  port: 8071
+  servlet:
+    context-path: '/emergencyapi'
+security:
+  ignored: /**
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+info:
+  application:
+    name: Emergency Service Application for what3words
+    description: An Application for Emergency Service (An Assignment By what3Words)
+    author: Akash Singh
+    version: '@project.version@'
+spring:
+  profiles:
+    active: dev
