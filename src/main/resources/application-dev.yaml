@@ -4,3 +4,5 @@ what3words:
   allowedCountries:
     - GB
   numberOfSuggestionsPerCountry: 3
+server:
+  port: 8080
