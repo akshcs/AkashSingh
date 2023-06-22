@@ -11,6 +11,7 @@ Resources
 How to run this Application
 --------------------------------------------------------------------------------
 
+- The code is scalable to onboard any region and also supports multiple regions. it is configurable. This service can also be deployed in multiple regions as a seperate service where we just change the config
 - This application is running as a service. You can directly test the application from the swagger link provided above.
 - The swagger link is provided above please use it to Test
 - It is a Spring Boot Application, You can also run this application on your local machine by running EmergencyApplication class
